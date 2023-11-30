@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+}
+
+.logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 130px;
+    margin-left: 35px;
+}
+
+.headerNav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    cursor: pointer;
+    line-height: 20px;
+    
+}
+
+img {
+    width: 550px;
+}
+
+p {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    white-space: nowrap;
+}
+
+.footer {
+    margin-top: 150px;
+    text-transform: uppercase;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsletterText {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+.socialNetworksText {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+    font-size: 0.8rem;
+}
+
+.legalText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    gap: 30px;
+    font-size: 0.7rem;
+}
+
+.mainDetail{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 10%;
+}
+
+.asideDetail {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px lightgray;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 150px;
+}
+
+.paraDetail {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.paraDetail2 {
+    text-transform: lowercase;
+}
+
+select {
+    width: 180px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btnDetail {
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}

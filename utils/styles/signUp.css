@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+}
+
+.logo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 130px;
+    margin-left: 35px;
+}
+
+.headerNav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer {
+    margin-top: 150px;
+    text-transform: uppercase;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newsletterText {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+.socialNetworksText {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+    font-size: 0.8rem;
+}
+
+.legalText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    gap: 30px;
+    font-size: 0.7rem;
+}
+
+.personalDataText {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    margin-top: 12px;
+}
+
+.btn {
+    height: 40px;
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.mainDiv {
+    width: 50%;
+    padding: 50px;
+    margin-top: 30px;
+    margin-left: 350px;
+    border-radius: 50px;
+    border: solid 1px lightgray;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
